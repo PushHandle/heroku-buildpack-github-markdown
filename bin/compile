@@ -2,7 +2,7 @@
 
 if [ -z "$STYLESHEET_URL" ]; then
     echo "       Setting STYLESHEET_URL to default value"
-    STYLESHEET_URL="https://gist.github.com/raw/4579178/styles.css"
+    STYLESHEET_URL="/code.css"
 fi
 
 TEMPLATE_HEADER="<html><head><link href=\"$STYLESHEET_URL\" media=\"all\" rel=\"stylesheet\" type=\"text/css\" /></head><body>"
